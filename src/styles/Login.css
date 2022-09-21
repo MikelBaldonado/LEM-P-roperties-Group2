@@ -1,0 +1,22 @@
+.login {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.login .leftSide {
+  height: 100%;
+  flex: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login .rightSide {
+  height: 100%;
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
