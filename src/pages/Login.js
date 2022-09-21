@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import logoPic from '../assets/LEM.png';
+// import logoPic from '../assets/LEM.png';
 import { NavLink } from 'react-router-dom';
 import LoginImage from '../assets/dusit_residence_hero.jpg';
 import '../styles/Login.css';
+// import Home from '../pages/Home';
 
 function Login() {
 
@@ -66,7 +67,9 @@ function Login() {
         if(userlogin.length === 0){
           alert("Invalid details!");
         }else{
-          console.log("User Login successfully!");
+          // console.log("User Login successfully!");
+          alert("User Login successfully!");
+          // <Home/>
         }
       }
 
