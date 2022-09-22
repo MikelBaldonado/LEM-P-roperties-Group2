@@ -45,5 +45,101 @@ export const PropertiesList = [
     name: "ORTIGAS RESIDENCES",
     image: TownHouse,
     price: 9999999.99,
+    region: "Visayas",
+    city: "",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "AYALA RESIDENCES",
+    image: AyalaResidence,
+    price: 9999999.99,
+    region: "Visayas",
+    city: "",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "SEGUNDA RESIDENCES",
+    image: SegundaResidence,
+    price: 14999999.99,
+    region: "Visayas",
+    city: "Cebu",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "LUMINA TOWNHOUSE",
+    image: Townhouse,
+    price: 8999999.99,
+    region: "Mindanao",
+    city: "Davao",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "ALDER RESIDENCES",
+    image: Alder,
+    price: 23999999.99,
+    region: "Mindanao",
+    city: "Davao",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "AYALA WEST",
+    image: AyalaWest,
+    price: 21999999.99,
+    region: "Mindanao",
+    city: "Davao",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "COMMONWEALTH RESIDENCES",
+    image: CommonWealth,
+    price: 26999999.99,
+    region: "Mindanao",
+    city: "",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "MANGO CONDO",
+    image: Mango,
+    price: 7999999.99,
+    region: "Mindanao",
+    city: "",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "SIENA TOWNHOUSE",
+    image: SienaTownhouse,
+    price: 17999999.99,
+    region: "Mindanao",
+    city: "",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+  },
+  {
+    name: "SIENA BUNGALOW",
+    image: SienaBungalow,
+    price: 21999999.00,
+    region: "Visayas",
+    city: "Cebu",
+    floorarea: "300 SQM",
+    lotarea: "",
+    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+
   },
 ];
