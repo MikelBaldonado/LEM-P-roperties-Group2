@@ -180,7 +180,7 @@ export const PropertiesList = [
   {
     name: "SIENA BUNGALOW",
     image: SienaBungalow,
-    price: 21999999.99,
+    price: 21999999.00,
     region: "Visayas",
     city: "Cebu",
     floorarea: "300 SQM",
