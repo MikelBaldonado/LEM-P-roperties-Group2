@@ -7,6 +7,8 @@ function PropertiesItem({ image, name, price }) {
       <h1> {name} </h1>
       <p> Php {price} </p>
     </div>
+
+
   );
 }
 

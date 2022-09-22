@@ -49,6 +49,31 @@
   margin-left: 20px;
 }
 
+.filterButtonsVertical {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filterButtonsVertical a {
+  background-color: #ccc; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.filterButtonsVertical a:hover {
+  background-color: #FE9C8F; /* Dark grey background on mouse-over */
+}
+
+.filterButtonsVertical a.active {
+  background-color: #04AA6D; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
 @media only screen and (max-width: 1300px) {
   .propertiesList {
     grid-template-columns: 1fr 1fr;
@@ -60,3 +85,14 @@
     grid-template-columns: 1fr;
   }
 }
+.bgcolor-primary{
+  background-color: #FE9C8F;
+}
+.COLORSCHEME {
+
+  color: #FE9C8F; /* primary */
+  color: #FAD9C1; /* secondary */
+  color: #FEB2A8; /* info */
+  color: #F9CAA7;
+  color: #FEC8C1;
+  }
