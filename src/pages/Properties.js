@@ -15,7 +15,12 @@ function Properties() {
             key={key}
             image={propertiesItem.image} 
             name={propertiesItem.name} 
-            price={propertiesItem.price}/>
+            price={Number(propertiesItem.price).toLocaleString('en-US')}
+            region={propertiesItem.region}
+            city={propertiesItem.city}
+            floorarea={propertiesItem.floorarea}
+            lotarea={propertiesItem.lotarea}
+            description={propertiesItem.description}/>
           );
         })}
       </div>
