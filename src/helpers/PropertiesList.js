@@ -4,88 +4,42 @@ import SMDC from "../assets/for_buy.jpg";
 import JAZZ from "../assets/for_rent.jpg";
 import TownHouse from "../assets/for_sell.jpg";
 import TwentyFour from "../assets/samujana-twenty-four.webp";
-import AyalaResidence from "../assets/AyalaResidences.jpg";
-import SegundaResidence from "../assets/SegundaResidence.jpg";
-import Townhouse from "../assets/Townhouse.webp";
-import Alder from "../assets/AlderRes.webp";
-import AyalaWest from "../assets/Ayala-West.jpg";
-import CommonWealth from "../assets/CommonwealthRes.jpg";
-import Mango from "../assets/MangoCondo.jpg";
-import SienaTownhouse from "../assets/SienaTownhouse.webp";
-import SienaBungalow from "../assets/SienaBungalow.webp";
-
 
 export const PropertiesList = [
   {
     name: "MAKATI CONDOMINIUM",
     image: Torre,
-    price: 19999999.99,
-    region: "Luzon",
-    city: "Metro Manila",
-    floorarea: "300 SQM",
-    lotarea: "",
-    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+    price: 9999999.99,
   },
   {
     name: "DUSIT RESIDENCES",
     image: Dusit,
-    price: 29999999.99,
-    region: "Luzon",
-    city: "Metro Manila",
-    floorarea: "300 SQM",
-    lotarea: "",
-    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+    price: 9999999.99,
   },
   {
     name: "PRIME RESIDENCES",
-    region: "Luzon",
-    city: "Metro Manila",
     image: SMDC,
-    price: 11999999.99,
-    city: "",
-    floorarea: "300 SQM",
-    lotarea: "",
-    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+    price: 9999999.99,
   },
   {
     name: "SM JAZZ",
     image: JAZZ,
-    price: 15999999.99,
-    region: "Luzon",
-    city: "",
-    floorarea: "300 SQM",
-    lotarea: "",
-    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+    price: 9999999.99,
   },
   {
     name: "TOWN HOUSE",
     image: TownHouse,
-    price: 6999999.99,
-    region: "Luzon",
-    city: "",
-    floorarea: "300 SQM",
-    lotarea: "",
-    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+    price: 9999999.99,
   },
   {
     name: "SAMUJANA TWENTY FOUR",
     image: TwentyFour,
     price: 9999999.99,
-    region: "Visayas",
-    city: "Cebu",
-    floorarea: "300 SQM",
-    lotarea: "",
-    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
   },
   {
     name: "SAN JUAN RESIDENCES",
     image: TwentyFour,
     price: 9999999.99,
-    region: "Visayas",
-    city: "Cebu",
-    floorarea: "300 SQM",
-    lotarea: "",
-    description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
   },
   {
     name: "ORTIGAS RESIDENCES",
@@ -180,11 +134,12 @@ export const PropertiesList = [
   {
     name: "SIENA BUNGALOW",
     image: SienaBungalow,
-    price: 21999999.99,
+    price: 21999999.00,
     region: "Visayas",
     city: "Cebu",
     floorarea: "300 SQM",
     lotarea: "",
     description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
+
   },
 ];
