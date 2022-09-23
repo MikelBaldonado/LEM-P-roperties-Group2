@@ -40,7 +40,7 @@ const OwnersAccount = () => {
       </span>
       <h3>Add Property</h3>
     </a>
-    <a href>
+    <a href="#">
       <span className="material-symbols-sharp">
         logout
       </span>
