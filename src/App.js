@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
+import OwnersAccount from './helpers/OwnersAccount';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />          
           <Route path="/signup" element={<Signup />} />          
           <Route path="/login" element={<Login />} />          
-          <Route path="/modal" element={<Modal />} />          
+          <Route path="/modal" element={<Modal />} /> 
+          <Route path="/OwnersAccount" element={<OwnersAccount />} />       
         </Routes>
         <Footer/>
       </Router>

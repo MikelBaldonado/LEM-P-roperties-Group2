@@ -27,7 +27,7 @@ function Home() {
         <div className="Hero-Subtitle">
           <h3>The best platform to Rent and Sell properties</h3> 
           <p>See properties that might pique your interests</p>
-          <button>EXPLORE</button>
+          <button className='ExploreBtn'>EXPLORE</button>
         </div>
         <div className='HouseHero'>
           <img src={HouseHero} alt="" className="HouseHero" />
@@ -91,7 +91,7 @@ function Home() {
         <div className="grid-container-discover">
           <div className="grid-item-discover1">
             <div className="text-discover">
-              <p>Come to a place where you can embark on a new journey while experiencing the rich and diverse culture of Dumaguete City</p>
+              <p>Create a new journey while experiencing the rich and diverse culture of Dumaguete City</p>
               <button>See Details</button>
             </div>
             <div className="ImageDiscover"><img src={Room4}alt />
@@ -119,7 +119,7 @@ function Home() {
       <div className="grid-container-discover">
         <div className="grid-item-discover1">
           <div className="text-discover">
-            <p>Lorem ipsum dolor sit amet cique accusantium expedita consequatur debitis doloremque.</p>
+            <p>A peacefull place where you can relax any place of the home and enjoy the minimalist design.</p>
             <button>See Details</button>
           </div>
           <div className="ImageDiscover"><img src={Room5} alt />
@@ -130,7 +130,7 @@ function Home() {
         </div>
         <div className="grid-item-discover1">
           <div className="text-discover">
-            <p>Discover serenity away from the hustle and bustle of the City. Come and stay at Moalboal Cebu City.</p>
+            <p>Discover serenity away from the hustle City. Come and stay at Moalboal Cebu City.</p>
             <button>See Details</button>
           </div>
           <div className="ImageDiscover"><img src={Room2} alt />
@@ -215,29 +215,4 @@ function Home() {
 }
 
 export default Home;
-import React from 'react'
-import { Link } from 'react-router-dom';
-import BannerImage from '../assets/properties_banner.jpg'
-import '../styles/Home.css'
-function Home() {
-  return (
-    <div className="home" style={{backgroundImage:`url(${BannerImage})`}}> 
-      <div className="headerContainer" >
-
-        {/* <div className="infoContainer">
-          Search: <input type="text" placeholder="Search..."/>
-        </div> */}
-
-        <h1>LEM Properties</h1>
-        <p>Buy, Sell and Rent</p>
-        <Link to='/properties'>
-          <button>RESERVE NOW!!!</button>
-        </Link>
-      </div>
-    </div>
-  );
-  
-}
-
-export default Home
 
