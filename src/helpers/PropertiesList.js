@@ -42,7 +42,6 @@ export const PropertiesList = [
     city: "Metro Manila",
     image: SMDC,
     price: 11999999.99,
-    city: "",
     floorarea: "300 SQM",
     lotarea: "",
     description: "Located in the heart of Makati, this condo is fully furnished and ready for occupancy. <br/> Five Bedrooms + Four Toilet & Baths + Kitchen + Dining + Living Area + Balcony."
