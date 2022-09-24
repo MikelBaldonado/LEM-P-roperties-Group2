@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+// import '../styles/Properties.css';
 
 function PropertiesItem({ image, name, price, region, city, floorarea, lotarea, description, }) {
   const [show, setShow] = useState(false);
@@ -13,13 +14,13 @@ function PropertiesItem({ image, name, price, region, city, floorarea, lotarea, 
       <div className="propertiesItem">
         <div style={{ backgroundImage: `url(${image})` }}> </div>
         <div className='card-body'>
-        <h3 style={{textAlign:"center"}}> {name} </h3>
+        <h3 className="card-header"> {name} </h3>
         <p> Php {price} </p>
         <p> Region: {region} </p>
         <p> City: {city} </p>
         </div>
         <div className="card-footer">
-        <Button variant="light" onClick={handleShow}>
+        <Button variant="primary" onClick={handleShow} className="cardButton">
           <b>DETAILS</b>
         </Button>
         </div>
@@ -51,8 +52,6 @@ function PropertiesItem({ image, name, price, region, city, floorarea, lotarea, 
       </Modal>
 
     </div>
-
-
   );
 }
 
