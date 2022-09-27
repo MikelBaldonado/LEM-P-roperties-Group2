@@ -18,6 +18,7 @@ import House from '../assets/House.jpg';
 import House2 from '../assets/House2.jpg';
 
 import '../styles/Home.css';
+import Properties from './Properties';
 function Home() {
   return (
  <main>

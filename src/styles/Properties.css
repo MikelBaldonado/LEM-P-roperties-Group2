@@ -42,7 +42,8 @@ float: left;
 .propertiesItem:hover {
   /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in; */
-  background-color: #FE9C8F;
+  background-color: #368D96;
+  color: #fff;
   transform: scale(1.1);
   transform-origin: center;
   transition-delay: 0.4s;
