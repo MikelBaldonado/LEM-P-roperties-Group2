@@ -138,7 +138,7 @@ main {
 
 .Overlap {
   background-color: rgba(0, 0, 0, 0.11);
-  height: 65.1vh;
+  height: 69.5vh;
   width: 100vw;
   /* top: 8vh; */
   position: absolute;
@@ -185,8 +185,14 @@ main {
   background-color: #368D96;
 }
 
+.ExploreBtn :hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
 /* CSS GRID SEARCH FILTER*/
 .grid-container-search {
+  top: 0;
   display: grid;
   align-content: center;
   grid-template-columns: auto auto auto auto;
@@ -541,11 +547,6 @@ main {
   opacity: 1;
 } */
 
-footer {
-  height: 50vh;
-  width: 100vw;
-  background-color: #10202b4b;
-}
 
 
 @media screen and (max-width:468px) {
