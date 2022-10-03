@@ -2,7 +2,7 @@ body{
   background-color: #FAD9C1;
 }
 .properties {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   display: flex;
   justify-content: center;
@@ -16,11 +16,14 @@ body{
 }
 
 .propertiesList {
-  width: 70vw;
+  /* width: 70vw; */
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* place-items: center; */
+  /* background-color: #04AA6D; */
+  /* float:left;*/
+
 }
 
 /* PROPERTIES ITEM STYLING */
@@ -31,7 +34,7 @@ body{
   height: 450px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  float: left;
+  /* float: left; */
   background-color: whitesmoke;
   color: gray;
   /* width: fit-content; */
@@ -45,6 +48,7 @@ body{
   z-index: 4;
   /* vertical-align: top; */
   transition:all 1s;
+  /* justify-content: space-around; */
 
 }
 .propertiesItem:hover {
@@ -101,14 +105,25 @@ body{
 .propertiesItem p {
   margin-left: 20px;
 }
-
+.filterButtonTop{
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  color: white;
+  ;
+}
 .filterButtonsVertical {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
 
-.filterButtonsVertical a {
+.filterButtonsVertical button {
   background-color: #ccc; /* Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
@@ -120,7 +135,7 @@ body{
   transition:all 1s;
 }
 
-.filterButtonsVertical a:hover {
+.filterButtonsVertical button:hover {
   background-color: navy; /* Navy blue background on mouse-over */
   color: white;
   transition-delay: 0.4s;
@@ -128,11 +143,11 @@ body{
   font-weight: bold;
 }
 
-.filterButtonsVertical a.active {
+.filterButtonsVertical button.active {
   background-color: #04AA6D; /* Add a green color to the "active/current" link */
   color: white;
 }
-.filterButtonsVertical a.active:hover {
+.filterButtonsVertical button.active:hover {
   background-color: navy; /* Add a green color to the "active/current" link */
   color: white;
 }

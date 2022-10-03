@@ -5,12 +5,12 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 // import '../styles/Properties.css';
 
-function PropertiesItem({ image, name, price, region, city, floorarea, lotarea, description, }) {
+function PropertiesItem({ image, name, price, region, city, locality, floorarea, lotarea, description, }) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className='d-flex flex-wrap justify-content-center'>
+    <div className='d-flex justify-content-center'>
       <div className="propertiesItem">
         <div style={{ backgroundImage: `url(${image})` }}> </div>
         <div className='card-body'>
